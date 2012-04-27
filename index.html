@@ -1,0 +1,19 @@
+---
+layout: base
+title: Greenfry Labs
+site:
+  author: Cary
+  host: http://greenfrylabs.com/
+---
+<h1>Home Page</h1>
+{% assign hide_extended = true %}
+
+{% for post in site.posts limit:5 %}
+{% include post.html %}
+{% endfor %}
+
+<div class='sixteen columns'>
+  <h3>See it in action</h3>
+
+  <p>Here you could put a live example if your project happens to be something to do with web development, or maybe you could insert some images.</p>
+</div>
