@@ -11,6 +11,10 @@ body {
 	font-family: arial,sans-serif;
 }
 
+ol, ul {
+  list-style: circle inside;
+}
+
 /* Header */
 header {
 	padding-top: 50px;
