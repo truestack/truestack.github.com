@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Greenfry Labs
-tagline:
+title : Truestack
+tagline: How does your Rails app stack up?
 author :
   name : Name Lastname
   email : blah@email.test
